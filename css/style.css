@@ -287,3 +287,42 @@ p{
 .about-item4:hover:after {
     background-color: #fec600;
 }
+
+/*=========== Set part CSS ============*/
+.accordion-button:not(.collapsed) {
+	color: #444;
+	background-color: #f222;
+	box-shadow: none;
+	padding-left: 15px !important;
+}
+.accordion-button:focus {
+	border-color: tomato;
+	box-shadow: none;
+}
+.accordion-button:not(.collapsed)::after {
+	display: none;
+}
+.accordion-button::after {
+	display: none;
+}
+.accordion-button {
+    line-height: 40px;
+    padding-left: 15px !important;
+}
+.accordion-button i {
+	float: right;
+	transition: all linear .3s;
+	width: 40px;
+	height: 40px;
+	background: green;
+	line-height: 40px;
+    color: #fff;
+	text-align: center;
+}
+.accordion-button:not(.collapsed) i {
+    transform: rotate(90deg);
+}
+.accordion-item {
+    margin-bottom: 30px;
+}
+/*=========== Footer part CSS ============*/
