@@ -39,6 +39,7 @@ p{
 }
 .navbar-brand {
     color: #fec600;
+    font-family :'VintageKing', sans-serif;
 }
 .navbar-expand-lg .navbar-nav .nav-link {
     padding:0 0px;
